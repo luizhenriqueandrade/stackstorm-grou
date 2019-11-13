@@ -1,0 +1,27 @@
+---
+# Pack reference. It can only contain letters, digits and underscores.
+ref: grouqa2
+# User-friendly pack name. If this attribute contains spaces or any other special characters, then
+# the "ref" attribute must also be specified (see above).
+name: grouqa2
+# User-friendly pack description.
+description: Pacote simples de integração de pacote com o grou.
+# Keywords which are used when searching for packs.
+keywords:
+    - grou
+    - test
+# Pack version which must follow semver format (<major>.<minor>.<patch> e.g. 1.0.0)
+version: 0.0.1
+# A list of major Python versions pack is tested with and works with.
+python_versions:
+  - "2"
+  - "3"
+# Name of the pack author.
+author: globo.com
+# Email of the pack author.
+email: qa2@corp.globo.com
+# Optional list of additional contributors to the pack.
+contributors:
+  - "Felipe Nicodemos de Oliveira <felipe.oliveira@corp.globo.com>"
+  - "Luiz Henrique Andrade <luizhenrique.andrade@corp.globo.com>"
+  - "Ricardo Fahham <ricardo.fahham@corp.globo.com>"
